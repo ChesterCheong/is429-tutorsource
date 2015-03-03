@@ -1,10 +1,5 @@
-<%-- 
-    Document   : pricing
-    Created on : Mar 3, 2015, 10:28:13 PM
-    Author     : Bernard Phua
---%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -49,23 +44,23 @@
             <div class="row">
                 <div class="col-md-4">
                     <h2 class="text-justify" style="color:white">Normal Account</h2>
-                    <form method="post" action="payment.jsp?id=1">
-                        <img class="img-responsive" src="image/0dollar.jpg" alt="Pricing Tier"/><br>
+                    <form method="post" action="">
+                        <img class="img-responsive" src="images/0dollar.jpg" alt="Pricing Tier"/><br>
                         <input type="submit" class="btn btn-lg btn-success" value="Purchase" style="margin-right:150px">
                     </form>
                    
                 </div>
                 <div class="col-md-4">
                     <h2 class="text-justify" style="color:white">Ace Student Account</h2>
-                    <form method="post" action="payment.jsp?id=2">
-                        <img class="img-responsive" src="image/20dollar.jpg" alt="Pricing Tier"/><br>
+                    <form method="post" action="">
+                        <img class="img-responsive" src="images/20dollar.jpg" alt="Pricing Tier"/><br>
                         <input type="submit" class="btn btn-lg btn-success text-center" value="Purchase" style="margin-right:150px">
                     </form>
                 </div>
                 <div class="col-md-4">
                     <h2 class="text-justify" style="color:white">Ace Tutor Account</h2>
-                    <form method="post" action="payment.jsp?id=3">
-                        <img class="img-responsive" src="image/100dollar.jpg" alt="Pricing Tier"/><br>
+                    <form method="post" action="">
+                        <img class="img-responsive" src="images/100dollar.jpg" alt="Pricing Tier"/><br>
                         <input type="submit" class="btn btn-lg btn-success text-center" value="Purchase" style="margin-right:150px">
                     </form>
                 </div>
