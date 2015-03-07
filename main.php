@@ -17,14 +17,9 @@
     
     <body style="background-color:#286090">
         <nav>
-            <%@include file="navbar.jsp"%>
+            <?php include 'navbar.html' ?>
         </nav>
-        <%
-            if(request.getParameter("id")!=null){
-                int id = Integer.parseInt(request.getParameter("id"));
-            }
-             
-        %>
+        
         <div class="container" style="margin-top:100px">
             <div class="row">
                 <div class="col-md-1"></div>
